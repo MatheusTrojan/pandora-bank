@@ -6,12 +6,12 @@ export const Icone = styled.img`
 `
 
 export const Box = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: white;
   border-radius: 5px;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 20px;
   width: 48%;
 
