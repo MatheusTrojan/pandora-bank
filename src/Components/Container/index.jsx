@@ -24,7 +24,7 @@ const Conteudo = styled.section`
 export default () => {
   return (
     <Container>
-      <Titulo>Olá Fulano!</Titulo>
+      <Titulo>Olá! Bem vindo ao PandoraBank!</Titulo>
       <Conteudo>
         <Conta />
         <Extrato />
