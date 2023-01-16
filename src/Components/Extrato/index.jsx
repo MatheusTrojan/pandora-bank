@@ -1,16 +1,20 @@
 import React from 'react'
 import { Box, Button } from '../UI'
 import { extratoLista } from "../../info"
+import Itens from '../Itens'
 
 export default function Extrato() {
   return (
     <Box>
         {extratoLista.updates.map(({ id, type, from, value, date }) => {
-            return (
-                <div key={id}>
-                    <div>{type}</div>
-                    <div>{from}</div>
-                </div>
+            return (               
+                <Itens 
+                    key={id} 
+                    type={type} 
+                    from={from} 
+                    value={value} 
+                    date={date}
+                />
             )
         })}
         <Button>Ver Mais</Button>
