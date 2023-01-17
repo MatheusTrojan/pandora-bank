@@ -28,7 +28,7 @@ const Conta = () => {
         </span>
         {toggleState ? (
           <Saldo>
-            <Detalhe>R$</Detalhe> 0,00{" "}
+            <Detalhe>R$</Detalhe> 2000,00{" "}
           </Saldo>
         ) : null}
       </div>
